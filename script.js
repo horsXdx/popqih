@@ -1,4 +1,5 @@
 var img = document.getElementById("qih1");
+document.addEventListener('contextmenu', event => event.preventDefault());
 var count = document.getElementById("score");
 var malaysiaScore = document.getElementById('my_score');
 var score = 0;
