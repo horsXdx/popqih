@@ -9,7 +9,7 @@ body {
     margin: 0%;
     padding: 0%;
     /* background: linear-gradient(to right, #522258, #C63C51);  */
-    background-color: #F7EFE5;
+    background-color: #522258;
     overflow-y: hidden;
     font-family: Nunito, sans-serif;
 }
@@ -21,7 +21,7 @@ body {
 }
 h1{
     font-size: 3.5em;
-    color: #E2BFD9;
+    color: #522258;
     margin: 1% 0% -5% 0%;
     font-family: Nunito, sans-serif;
    /*  -webkit-text-stroke: 2px #522258; */
