@@ -1,7 +1,7 @@
 var img = document.getElementById("qih1");
 document.addEventListener('contextmenu', event => event.preventDefault());
 var count = document.getElementById("score");
-var indonesiaScore = document.getElementById('my_score');
+var IndonesiaScore = document.getElementById('my_score');
 var score = 0;
 var MyScore = 10000;
 var audio = new Audio('qih.mp3');
@@ -114,6 +114,6 @@ function increaseScore(){
     score++;
     MyScore++;
     count.innerHTML = score;
-    indonesiaScore.innerHTML = MyScore;
+    IndonesiaScore.innerHTML = MyScore;
     document.getElementById("table").rows[5].cells.item(3).innerHTML = MyScore;
 }
