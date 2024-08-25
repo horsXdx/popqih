@@ -1,11 +1,12 @@
 var img = document.getElementById("qih1");
 document.addEventListener('contextmenu', event => event.preventDefault());
+
 var count = document.getElementById("score");
-var IndonesiaScore = document.getElementById('my_score');
+var indonesiaScore = document.getElementById('my_score');
 var score = 0;
-var MyScore = 10000;
+var MyScore = 1000;
 var audio = new Audio('qih.mp3');
-var hk_score = 1000, tw_score = 430, th_score = 200, jp_score = 150, fi_score = 250, se_score = 100, pl_score = 500, dm_score = 280, id_score=9000, hu_score=319, sr_score = 300; 
+var hk_score = 10056, tw_score = 10034, th_score = 10345, jp_score = 1000, fi_score = 250, se_score = 100, pl_score = 500, dm_score = 280, id_score=590, hu_score=319, sr_score = 300; 
 
 // mouseclick event
 img.addEventListener("mousedown", function(){
@@ -114,6 +115,6 @@ function increaseScore(){
     score++;
     MyScore++;
     count.innerHTML = score;
-    IndonesiaScore.innerHTML = MyScore;
+    indonesiaScore.innerHTML = MyScore;
     document.getElementById("table").rows[5].cells.item(3).innerHTML = MyScore;
 }
